@@ -1,5 +1,7 @@
 module MagnusNudecker
 
+using LinearAlgebra
+
 function selection_matrix(m::Int)
     cd = round(Int, m*(m+1)/2)
     rd = m*m
